@@ -102,7 +102,6 @@ def register_routes(app):
     @app.route('/logout')
     def logout():
         session.pop('username', None) 
-        flash('You have been logged out successfully', 'info')
         return redirect(url_for('login'))
 
     

@@ -2,7 +2,35 @@
 
 ## Overview
 
-This project is a Flask web application that uses SQLAlchemy for ORM and Flask-Migrate for handling database migrations. The application includes user authentication, data storage, and a dashboard feature.
+# Flask Authentication and Data Storage Application
+
+This project is a Flask web application featuring user authentication, data storage, and management. It includes functionalities for user registration, login, data storage, and retrieval. Additionally, it provides a simple task management feature.
+
+## Features
+
+- **User Authentication**: Users can register, log in, and log out. Passwords are securely hashed.
+- **Data Storage**: Authenticated users can store and manage their data.
+- **Task Management**: Users can add, edit, and delete tasks.
+- **Responsive Design**: The interface is designed to be user-friendly and responsive.
+
+## Technologies Used
+
+- **Flask**: Web framework for building the application.
+- **SQLAlchemy**: ORM for database interactions.
+- **SQLite**: Database for storing user and task data.
+- **HTML/CSS**: Frontend technologies for designing the user interface.
+- **Flask-SCSS**: For compiling SCSS files into CSS.
+
+## Installation
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/Deepak-Kumar-1764/your-repository-name.git
+   cd your-repository-name
+
 
 ## Setup
 

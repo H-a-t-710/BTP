@@ -1,7 +1,3 @@
-# Flask Application with Database Migrations
-
-## Overview
-
 # Flask Authentication and Data Storage Application
 
 This project is a Flask web application featuring user authentication, data storage, and management. It includes functionalities for user registration, login, data storage, and retrieval. Additionally, it provides a simple task management feature.
